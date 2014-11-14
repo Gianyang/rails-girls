@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   root :to => redirect('/photos')
+  get "pages/info"
   resources :photos
 
   # The priority is based upon order of creation: first created -> highest priority.
