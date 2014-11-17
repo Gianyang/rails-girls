@@ -12,7 +12,10 @@ group :production do
   gem 'rails_12factor'
 end
 
+gem 'gravtastic'
+gem 'devise'
 gem 'carrierwave'
+gem 'mini_magick', '3.8.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
